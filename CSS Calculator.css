@@ -1,52 +1,52 @@
 body{
-    background: black;
+    background: rgb(33, 32, 32);
+    
 }
 div,button,input{
     position: relative;
     
 }
-#mainbody{
-    margin-left: 40%;
-    margin-top: 2px;
+#mainbody {
     background: black;
-    width: 250px;
-    height: 390px;
-    border: solid 6px;
-    border-color: #fdbb2d;
-    border-radius: 1px;
+    max-width: 280px; 
+    max-height: 510px;
+    margin: 20px auto;
+    border: solid 6px #080808;
+    border-radius: 4px;
+    padding: 10px;
 }
-#screen{
-    border-width: 5px;
-    margin-left: 18px;
-    width: 85%;
-    height: 4ipx;
-    margin-top: 13px;
-    border-color: #49fd2d;
-    border-radius: 1px;
-    font-size: xx-large;
-    font-family: sans-serif;
-    pointer-events: none;
-}
-.but{
-    width: 248px;
-    height: 334px;
-    margin-left: 1px;
-}
-.button{
-    width: 37px;
-    height: 45px;
-    margin-top: 16px;
-    background: green;
-    margin-left: 16px;
-    border: solid rgba(0, 0, 0, 0);
-    border-radius: 1px;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: sans-serif;
-}
-.button:hover{
-    cursor: pointer;
-    background: rgb(60, 180, 60);
-    
 
+#screen {
+    background: #222;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 100%; 
+}
+
+.but {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    padding: 15px 0;
+}
+
+.button.btn-success {
+    background-color: #28a745;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.oswald-font {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }

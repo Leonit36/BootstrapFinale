@@ -10,12 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="oswald-font" >
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top oswald-font" >
         <div class="container">
             <a href="MainWebpage.html" class="navbar-brand text-success nav-link" >
                 <img src="Logoja.png" alt="Imagenotfound" id="Logo">
-                Biologist's Notes
+                OutLife
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item"> 
@@ -41,7 +41,7 @@
                 <p class="">Many flowering plants can self-pollinate, or transfer pollen between their own blossoms for seed generation and propagation, but most of these plants have relied on pollinators such as butterflies and bees to reproduce.</p>
                 <p class="">Now — amid declines reported in many pollinator populations — a new study on the evolution of one flower species’ mating system has revealed a remarkable shift that could exacerbate the challenges faced by the plants’ insect partners.</p>
                 <a class="text-white" href="https://edition.cnn.com/2024/01/23/world/flower-self-fertilization-pollinator-decline-scn/index.html" style="margin-left: 300px;">
-                    <button class="btn btn-primary ">Read More ></button>
+                    <button class="btn btn-outline-light ">Read More ></button>
                 </a>
             </div> 
         </div>
@@ -66,7 +66,7 @@
                     The resurrected lineage was the Pyrenean ibex (Capra pyrenaica pyrenaica), and the last known member of the subspecies, a female named Celia, had died three years earlier...
                 </p>
                 <a class="text-white" href="https://www.livescience.com/animals/extinct-species/closer-than-people-think-woolly-mammoth-de-extinction-is-nearing-reality-and-we-have-no-idea-what-happens-next" style="margin-left: 300px;">
-                    <button class="btn btn-primary mt-4" >Read More ></button>
+                    <button class="btn btn-outline-light mt-5" >Read More ></button>
                 </a>
             </div> 
         </div>
@@ -93,10 +93,10 @@
                     "Polar bears are already sitting at the top of the world; if the ice goes, they have no place to go," he said.</p>
 
                 <a class="text-white" href="https://www.bbc.com/news/science-environment-53474445.amp" style="margin-left: 250px;">
-                    <button class="btn btn-primary mt-4" >Read More ></button>
+                    <button class="btn btn-outline-light mt-4" >Read More ></button>
                 </a>
             </div> 
-        </div>
+        </div> 
     </div>
 
     <footer>
@@ -105,7 +105,7 @@
             <div class="col text-center py-4">
               <h1>OutLife</h1>
               <p>Copyright &copy; <span id="year"></span></p>
-              <button class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#contactModal">Contact</button>
+              <button class="btn btn-success " data-bs-toggle="modal" data-bs-target="#contactModal">Contact</button>
             </div>
           </div>
         </div>
@@ -160,6 +160,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        background-color: rgb(40, 39, 39);
     }
     html, body{
         height: 100%;
@@ -178,5 +179,9 @@
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
+    }
+    .news{
+        width: 23rem;
+        height: 38rem;
     }
 </style>
